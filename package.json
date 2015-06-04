@@ -1,0 +1,34 @@
+{
+  "name": "machinepack-googleapisdeveloperfonts",
+  "version": "0.1.0",
+  "description": "Work with google aPIs developer fonts.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Google APIs Developer Fonts",
+    "google apis",
+    "webfonts",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^9.0.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "machinepack": {
+    "friendlyName": "Google APIs Developer Fonts",
+    "machineDir": "machines/",
+    "machines": [
+      "list"
+    ]
+  }
+}
