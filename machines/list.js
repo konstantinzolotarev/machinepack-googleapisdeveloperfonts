@@ -70,7 +70,6 @@ module.exports = {
     var webFonts = google.webfonts('v1');
     webFonts.webfonts.list(params, function(err, result) {
       if (err) {
-        console.log(err, err.code);
         if (!err.code) {
           return exits.error(err);
         }
